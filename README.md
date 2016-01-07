@@ -20,8 +20,8 @@ It's a list of items that you move without using native drag & drop (for mobile 
 The item components are wrapped inside a div. That div has `position: relative`.
 The items have `position: absolute`.
 
-### Conceptual overview - but better to read the code instead ;
-)
+### Conceptual overview - but better to read the code instead ;)
+
 * In this demo, there are 4 conceptual vertical slots, defined by their relative position inside the wrapping div.
 * The implementation is generic though and not limited to 4 items.
 * Each slot can have more than 1 item at each time (up to two).
