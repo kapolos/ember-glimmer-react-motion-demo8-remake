@@ -49,7 +49,7 @@ The items have `position: absolute`.
 
 ## Remarks
 
-I think the movement is jsut a bit less smooth that the react implementation - let me know your thought and how to possibly improve that.
+I think the movement is just a bit less smooth that the react implementation - let me know your thought and how to possibly improve that.
 
 ## Credits
 
