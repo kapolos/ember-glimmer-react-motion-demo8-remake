@@ -5,6 +5,10 @@
 Exploring the abilities of Ember's new engine (fast rerenders) by implementing the react-motion demo 8 in a "native" way.
 It's a list of items that you move without using native drag & drop (for mobile compat).
 
+## Where?
+
+Demo: [https://kapolos.github.io/ember-glimmer-react-motion-demo8-remake/](https://kapolos.github.io/ember-glimmer-react-motion-demo8-remake/)
+
 ## Implementation Notes
 
 ```
