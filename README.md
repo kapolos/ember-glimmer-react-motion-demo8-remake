@@ -47,6 +47,10 @@ The items have `position: absolute`.
 * The parent container needs to cover as much area in the user's screen as possible. Otherwise the mouse event listener will stop working once the mouse gets outside of the container area. Originally I tried to implement this by having the listener in the item component - very fragile especially on fast mouse movement. Then I did exactly what the react-motion demo8 did - the parent component takes up all the visible space and has the listener implementation instead of each item.
 * Scaling an item causes blurring. The React demo letters on the items are gray-ish so that the blurring is not that visible, due to the light contrast with the background. I set it black so that the white shadow on "transform3d" that comes as a byproduct is clearly visible.
 
+## Remarks
+
+I think the movement is jsut a bit less smooth that the react implementation - let me know your thought and how to possibly improve that.
+
 ## Credits
 
 The idea to experiment with this belongs to [Sam Selikoff](https://github.com/samselikoff) and the work in this repo was commissioned by him as well.
