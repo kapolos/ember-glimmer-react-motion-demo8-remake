@@ -45,7 +45,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
-
+    ENV.baseUrl = '/ember-glimmer-react-motion-demo8-remake';
   }
 
   return ENV;
